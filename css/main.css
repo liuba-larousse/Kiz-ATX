@@ -1,33 +1,47 @@
-
-
 h1 {
-    color:#dedede;
+    color: #dedede;
 }
 
-p{
-    color:#eeeeee;
+p {
+    color: #eeeeee;
 }
+
 /* Navigation */
 
-.navbar{ background:rgb(255,0,0,0.7) !important;}
+.navbar {
+    background: rgb(255, 0, 0, 0.7) !important;
+}
 
-.nav-link , .navbar-brand{ color: #dedede !important; cursor: pointer !important;}
+.nav-link,
+.navbar-brand {
+    color: #dedede !important;
+    cursor: pointer !important;
+}
 
-.nav-link{ margin-right: 1em !important;}
+.nav-link {
+    margin-right: 1em !important;
+}
 
-.nav-link:hover{ background: rgba(0, 0, 0, 0); color: #af0404 !important; }
+.nav-link:hover {
+    background: rgba(0, 0, 0, 0);
+    color: #af0404 !important;
+}
 
-.navbar-collapse{ justify-content: flex-end;}
+.navbar-collapse {
+    justify-content: flex-end;
+}
 
-.navbar-toggler{ background:rgb(255,0,0,0.7)!important;}
+.navbar-toggler {
+    background: rgb(255, 0, 0, 0.7) !important;
+}
 
 .header {
-background-image: url('../images/bkgtop.png');
- background-attachment: fixed;
- background-size: cover;
- background-position: center;
- width: 100%;
- height: 850px;
+    background-image: url('../images/bkgtop.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 850px;
 }
 
 .overlay {
@@ -43,25 +57,25 @@ background-image: url('../images/bkgtop.png');
     top: 30%;
     margin: auto;
     padding: 2em;
-    width:50%;
+    width: 50%;
 }
 
-.description h1{
-    color:#af0404;
-    font-size:3rem;
+.description h1 {
+    color: #af0404;
+    font-size: 3rem;
 }
 
 .description p {
-    color:#dedede;
-    font-size:1.2rem;
+    color: #dedede;
+    font-size: 1.2rem;
     line-height: 1.5;
 }
 
 
 /* Community Section*/
 
-.community{
-    background-color: #af0404 ;
+.community {
+    background-color: #af0404;
     padding-bottom: 50px;
 }
 
@@ -69,27 +83,27 @@ background-image: url('../images/bkgtop.png');
     margin-top: 20%;
 }
 
-.buttons{
-    margin-top:20%;
+.buttons {
+    margin-top: 20%;
     display: flex;
-    flex-direction:column;
-    
+    flex-direction: column;
+
 }
 
 /*Kizomba Section*/
 .kizomba {
-    background-color:#414141 ;
+    background-color: #414141;
     padding-bottom: 30px;
-    padding-top:5px;
+    padding-top: 5px;
 }
 
 
 .img {
-  margin: auto !important;
-   width:300px;
-   height: auto;
-   display:block;
-   border-radius: 10px;
+    margin: auto !important;
+    width: 300px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
 }
 
 
@@ -97,29 +111,27 @@ background-image: url('../images/bkgtop.png');
 /*Buttons*/
 
 .button {
-border-radius: 20px;
-color: #AF0404 !important;
-font-family: Open Sans;
-font-size: 26px;
-font-weight: 100;
-padding: 20px;
-background-color: #DEDEDE;
-opacity: 0.75;
-box-shadow: 1px 1px 20px 0px #FF4949;
-text-shadow: 1px 1px 20px #FF4949;
-border: solid #C10000 1px;
-text-decoration: none !important;
-display: inline-block;
-cursor: pointer;
-text-align: center;
-margin: 10px;
+    border-radius: 20px;
+    color: #AF0404 !important;
+    font-family: Open Sans;
+    font-size: 26px;
+    font-weight: 100;
+    padding: 20px;
+    background-color: #DEDEDE;
+    opacity: 0.75;
+    box-shadow: 1px 1px 20px 0px #FF4949;
+    text-shadow: 1px 1px 20px #FF4949;
+    border: solid #C10000 1px;
+    text-decoration: none !important;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
 }
 
 .button:hover {
-background-color: rgb(250, 250, 250);
-border-radius: 20px;
-text-decoration: none;
-box-shadow: 1px 1px 20px 5px #FF4949;
+    background-color: rgb(250, 250, 250);
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 1px 1px 20px 5px #FF4949;
 }
-
-
