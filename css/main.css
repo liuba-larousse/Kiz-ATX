@@ -1,30 +1,33 @@
-h1 {
+body {
+    /* 1rem = 10px */
+    font-size: 1.6rem;
+    line-height: 2rem;
     color: #dedede;
 }
 
-p {
-    color: #eeeeee;
+:root {
+    --main-bg-color: #af0404;
+    --second-bg-color: #414141;
 }
 
 /* Navigation */
-
 .navbar {
-    background: rgb(255, 0, 0, 0.7) !important;
+    background: rgb(255, 0, 0, 0.7);
 }
 
 .nav-link,
 .navbar-brand {
-    color: #dedede !important;
-    cursor: pointer !important;
+    font-size: 1.8rem;
+    cursor: pointer;
 }
 
 .nav-link {
-    margin-right: 1em !important;
+    margin-right: 1rem;
 }
 
 .nav-link:hover {
     background: rgba(0, 0, 0, 0);
-    color: #af0404 !important;
+    color: #af0404;
 }
 
 .navbar-collapse {
@@ -32,16 +35,18 @@ p {
 }
 
 .navbar-toggler {
-    background: rgb(255, 0, 0, 0.7) !important;
+    background: rgb(255, 0, 0, 0.7);
 }
 
+/*  Hero */
+
 .header {
-    background-image: url('../images/bkgtop.png');
+    background-image: url("../images/bkgtop.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 850px;
+    height: 60rem;
 }
 
 .overlay {
@@ -60,68 +65,61 @@ p {
     width: 50%;
 }
 
-.description h1 {
+.hero-title {
     color: #af0404;
     font-size: 3rem;
 }
 
-.description p {
-    color: #dedede;
-    font-size: 1.2rem;
-    line-height: 1.5;
+.hero-description {
+    font-size: 1.8rem;
 }
-
 
 /* Community Section*/
 
 .community {
-    background-color: #af0404;
-    padding-bottom: 50px;
+    background-color: var(--main-bg-color);
+    padding-bottom: 5rem;
 }
 
 .text {
-    margin-top: 20%;
+    margin-top: 5rem;
 }
 
 .buttons {
-    margin-top: 20%;
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
-
 }
 
 /*Kizomba Section*/
 .kizomba {
-    background-color: #414141;
-    padding-bottom: 30px;
-    padding-top: 5px;
+    background-color: var(--second-bg-color);
+    padding-bottom: 3rem;
+    padding-top: 0.3px;
 }
-
 
 .img {
     margin: auto !important;
     width: 300px;
     height: auto;
     display: block;
-    border-radius: 10px;
+    border-radius: 0.3px;
 }
-
-
 
 /*Buttons*/
 
-.button {
+.btn-link {
     border-radius: 20px;
-    color: #AF0404 !important;
+    color: #af0404;
     font-family: Open Sans;
     font-size: 26px;
     font-weight: 100;
     padding: 20px;
-    background-color: #DEDEDE;
+    background-color: #dedede;
     opacity: 0.75;
-    box-shadow: 1px 1px 20px 0px #FF4949;
-    text-shadow: 1px 1px 20px #FF4949;
-    border: solid #C10000 1px;
+    box-shadow: 1px 1px 20px 0px #ff4949;
+    text-shadow: 1px 1px 20px #ff4949;
+    border: solid #c10000 1px;
     text-decoration: none !important;
     display: inline-block;
     cursor: pointer;
@@ -129,9 +127,65 @@ p {
     margin: 10px;
 }
 
-.button:hover {
+.btn-link:hover {
+    color: #af0404;
     background-color: rgb(250, 250, 250);
     border-radius: 20px;
     text-decoration: none;
-    box-shadow: 1px 1px 20px 5px #FF4949;
+    box-shadow: 1px 1px 20px 5px #ff4949;
+}
+
+.btn-link:focus {
+    color: #af0404;
+    background-color: rgb(250, 250, 250);
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 1px 1px 20px 5px #ff4949;
+}
+
+/* Carousel section */
+
+.carousel {
+    background-color: var(--main-bg-color);
+    padding: 3rem;
+}
+
+.carousel-title {
+    text-align: center;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: var(--second-bg-color);
+    height: 10rem;
+}
+
+.social:hover {
+    --webkit-transform: scale(1.1);
+}
+
+.socal {
+    --webkit-transform: scale(0.8);
+    --webkit-transition-duration: 0.5s;
+}
+
+/*
+    Multicoloured Hover Variations
+*/
+
+#social-fb:hover {
+    color: #3b5998;
+}
+
+#social-tw:hover {
+    color: #4099ff;
+}
+
+#social-gp:hover {
+    color: #d34836;
+}
+
+#social-em:hover {
+    color: #f39c12;
 }
