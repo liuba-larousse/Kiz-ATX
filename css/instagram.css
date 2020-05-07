@@ -1,0 +1,25 @@
+.header-instagram {
+    background-image: url("../images/instagram-bg.jpg");
+    height: 35rem;
+}
+
+.overlay-instagram {
+    height: 35rem;
+    background-color: rgb(255, 0, 0, 0.3);
+}
+
+.lightwidget-widget {
+    width: 100%;
+    border: 0;
+    overflow: hidden;
+}
+
+.widget {
+    padding: 5rem;
+}
+
+.buttons {
+    width: 30%;
+    margin: auto;
+    padding: 1rem;
+}

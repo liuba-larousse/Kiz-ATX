@@ -1,0 +1,21 @@
+/* Header */
+
+
+.header-classes {
+    background-image: url("../images/classes-bg.jpg");
+    height: 35rem;
+}
+
+.overlay-classes {
+    height: 35rem;
+    background-color: rgb(255, 0, 0, 0.3);
+}
+
+
+
+
+/* Calendar Section */
+
+.calendar {
+    padding: 5rem;
+}

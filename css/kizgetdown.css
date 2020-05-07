@@ -1,0 +1,40 @@
+/* Header */
+
+.header-kizgetdown {
+    background-image: url("../images/kizgetdown-bg.jpg");
+    height: 35rem;
+}
+
+.overlay-kizgetdown {
+    height: 35rem;
+    background-color: rgb(255, 0, 0, 0.3);
+}
+
+
+
+/* Gallery */
+
+img {
+    padding: 1rem;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+}
+
+img:hover,
+img:focus {
+    transform: scale(1.1);
+}
+
+
+.title {
+    padding: 5rem 0 2rem 0;
+}
+
+
+.buttons {
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+}
